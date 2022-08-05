@@ -161,7 +161,7 @@ p {
 
 /*Tablet View*/
 
-@media (min-width: 768px){
+@media (min-width: 428px){
 	
 	body {
 		
