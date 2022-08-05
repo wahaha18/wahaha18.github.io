@@ -158,6 +158,13 @@ p {
 
 /* 不同尺寸 */
 
+@mediascreenand(max-device-width:400px){
+	.column{
+		float:none;
+		width:auto;
+	}
+	}
+
 
 /*Tablet View*/
 
