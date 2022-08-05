@@ -158,24 +158,34 @@ p {
 
 /* 不同尺寸 */
 
-@media (max-device-width:400px){
-	body {
-	.col{
+@media (max-width: 400px) {
+	
+	.colmd-one-three {
 		float:none;
 		width:auto;
 	}
+		.colmd-one-three-se {
+		float:none;
+		width:auto;
 	}
-}
+		h4 {
+		width: auto;
+		float: none;
+	}
+	
+	.style-nav ul li {
+		display: none;
+	}
+	
+	}
+
 
 
 /*Tablet View*/
 
 @media (min-width: 768px){
 	
-	body {
-		
-	}
-	
+
 	.style-nav ul li {
 		display: inline-block;
 	}
@@ -185,10 +195,6 @@ p {
 		float: left;
 		margin-left: auto;
 		margin-right: auto;
-	}
-	
-	.col-md-one-three {
-
 	}
 	
 	.colmd-one-three-se {
