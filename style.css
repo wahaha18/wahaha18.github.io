@@ -158,8 +158,8 @@ p {
 
 /* 不同尺寸 */
 
-@media (max-width: 400px) {
-	
+@media screen and (max-width: 767px) {
+
 	.colmd-one-three {
 		float:none;
 		width:auto;
@@ -183,7 +183,7 @@ p {
 
 /*Tablet View*/
 
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
 	
 
 	.style-nav ul li {
