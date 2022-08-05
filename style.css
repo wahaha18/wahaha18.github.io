@@ -158,12 +158,14 @@ p {
 
 /* 不同尺寸 */
 
-@mediascreenand(max-device-width:400px){
-	.column{
+@media (max-device-width:400px){
+	body {
+	.col{
 		float:none;
 		width:auto;
 	}
 	}
+}
 
 
 /*Tablet View*/
