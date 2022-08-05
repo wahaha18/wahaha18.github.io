@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 30px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 20px 30px;
+	background-color: #000000;
+}
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	background: #000000;
+}
+
+
+/* nei rong */
+
+.style-logo {
+		float: left;
+	width:200px;
+	}
+
+.style-nav {
+	list-style-type: none;
+	float: right;
+	text-align: right;
+}
+
+.style-nav ul li a {
+	text-decoration:underline;
+	color: #FFFFFF;
+	text-transform: none;
+	font-size: 20px;
+}
+.style-nav ul li{
+	padding: 0px 0px 10px 0px;
+}
+
+.hello {
+	text-align: right;
+}
+
+h1 {
+	font-size: 70px;
+	text-transform: none;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+	padding-right: 30px;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: none;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+	padding-right: 30px;
+}
+
+h3 {
+	font-size: 30px;
+	text-transform: none;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+	padding-left: 30px;
+}
+
+h4 {
+	font-size: 20px;
+	text-transform: none;
+	font-weight: normal;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	padding: 30px 30px 0px 30px;
+}
+
+h5 {
+	font-size: 26px;
+	text-transform: none;
+	font-weight:bold;
+	padding-left: 30px;
+
+
+}
+
+h6 {
+	font-size: 20px;
+	text-transform: none;
+	font-weight: normal;
+}
+
+h7 {
+	font-size: 25px;
+	text-transform: none;
+	font-weight: bold;
+	margin: 30px 0px;
+}
+
+p {
+	font-size: 20px;
+	text-transform: none;
+	font-weight: normal;
+	padding: 30px;
+}
+
+
+.artwork01{
+	padding: 60px 0px 0px 0px;
+	width: 100%;
+}
+
+
+
+
+/* qi ta */
+
+.col {
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+
+}
+
+.row:after {
+	clear: both;
+}
+
+
+
+
+
+
+.colmd-one-three {
+	padding: 30px;
+	max-width: 1200px;
+}
+
+
+
+.header {
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+f1 {
+	float: right;
+	text-align: right;
+}
+
+.logo2 {
+	max-width: 150px;
+}
+
+.qrcode {
+	max-width: 160px;
+	margin-bottom: 60px;
+	float: right;
+}
+
+f2 {
+
+	text-align: left;
+	left: 0px;
+	position: relative;
+    bottom: -160px
+
+}
+
+
+
+.col-work-experience {
+	background-color: #FFFFFF;
+	padding: 60px 0px;
+
+}
+
+
+
+.about {
+	color:#FFFFFF;
+}
+
+w1 {
+	font-size: 16px;
+}
+
+br {
+	padding: 30px;
+}
+
+.col-md-one-three {
+
+}
+
+.colmd-one-three {
+
+}
+
+.work2 {
+	max-width: 1200px;
+}
+
+
+.footer1 {
+	padding-top: 30px;
+	color: #FFFFFF;
+}
+
+.footer2 {
+color: #FFFFFF;
+
+}
+
+.others {
+	background-color: #DADADA;
+	padding: 60px 0px ;
+}
+
+w2 {
+	font-size: 16px;
+
+
+}
+
+
+
+.languages2 {
+padding: 30px;
+}
+
+.skills2 {
+padding: 30px;
+}
+
+.education2 {
+padding: 30px;
+}
+
+
+
+.colmd-one-three-se {
+
+	max-width: 1200px;
+}
+
+
+.fk1 {
+	width: auto;
+	height: 2px;
+	background: #FFFFFF;
+	margin: 30px 30px 0px 30px;
+}
+
+.fk2 {
+		width: auto;
+	height: 2px;
+	background-color: #000000;
+	margin: 0px 0px 30px 0px;
+}
+
+.fk3 {
+			width: auto;
+	height: 2px;
+	background-color: #000000;
+	margin: 30px 30px 0px 30px;
+}
+
+.footer3 {
+
+}
