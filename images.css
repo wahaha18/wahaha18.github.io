@@ -113,7 +113,9 @@ body {
 }
 
 
-
+	.style-nav ul li {
+		display: inline-block;
+	}
 
 
 h3 {
