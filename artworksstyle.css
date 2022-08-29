@@ -111,7 +111,9 @@ body {
 	
 		f2 {display: none;}
 }
-
+	.style-nav ul li {
+		display: inline-block;
+	}
 
 
 h3 {
